@@ -14,6 +14,6 @@ namespace Modelo1.Entidades
         public Materia Materia { get; set; }
         public int MateriaId { get; set; }
         public string Nivel { get; set; }
-        //falta
+        public List<Prerequisito> Prerequisitos { get; set; }
     }
 }

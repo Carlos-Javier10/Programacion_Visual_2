@@ -14,7 +14,7 @@ namespace Modelo1.Entidades
         public Estudinate Estudinate { get; set; }
         public int EstudianteId { get; set; }
         public DateTime Fecha { get; set; }
-        //falta 
+        public  List<Matricula> Matriculas { get; set; }
         public int MatriculaId { get; set; }
         public Periodo Periodo { get; set; }
         public int PeriodoId { get; set; }

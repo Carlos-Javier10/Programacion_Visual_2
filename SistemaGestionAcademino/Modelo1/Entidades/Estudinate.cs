@@ -9,7 +9,7 @@ namespace Modelo1.Entidades
     public class Estudinate
     {
         public int EstudianteId { get; set; }
-        //falta 
+        public List<Matricula> Matriculas { get; set; } 
         public string Nombre { get; set; }
     }
 }

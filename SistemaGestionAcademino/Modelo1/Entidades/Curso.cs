@@ -14,7 +14,7 @@ namespace Modelo1.Entidades
         public string Jornada { get; set; }
         public Materia Materia { get; set; }
         public int MateriaId { get; set; }
-        //falta
+        public List<Matricula_det> Matricula_Dets { get; set; }
         public string Nombre { get; set; }
         public Periodo Periodo { get; set; }
         public int PeriodoId { get; set; }

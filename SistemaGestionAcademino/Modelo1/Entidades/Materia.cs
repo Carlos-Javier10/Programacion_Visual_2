@@ -10,10 +10,10 @@ namespace Modelo1.Entidades
     {
         public string Area { get; set; }
         public int Creditos { get; set; }
-        //falta 
+        public List<Curso> Cursos { get; set; }
         public Malla Malla { get; set; }
         public int MateriaId { get; set; }
         public string Nombre { get; set; }
-        //falta
+        public List<Prerequisito> Prerequisitos { get; set; }
     }
 }

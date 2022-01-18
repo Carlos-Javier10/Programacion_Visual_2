@@ -8,11 +8,11 @@ namespace Modelo1.Entidades
 {
     public class Periodo
     {
-        //falta
+        public List<Curso> Cursos { get; set; }
         public string Estado { get; set; }
         public DateTime FechaFin { get; set; }
         public DateTime FechaInicio { get; set; }
-        //falta
+        public List<Matricula> Matriculas { get; set; }
         public int PeriodoId { get; set; }
     }
 }

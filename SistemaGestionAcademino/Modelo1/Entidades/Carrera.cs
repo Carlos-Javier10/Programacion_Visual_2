@@ -10,7 +10,7 @@ namespace Modelo1.Entidades
     {
         public int CarreraId { get; set; }
         public float CostoCredito { get; set; }
-        //falta
+        public List<Matricula> Matriculas { get; set; }
         public string Nombre { get; set; }
     }
 }

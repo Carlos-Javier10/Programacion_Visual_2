@@ -8,5 +8,9 @@ namespace Modelo1.Entidades
 {
     public class Carrera
     {
+        public int CarreraId { get; set; }
+        public float CostoCredito { get; set; }
+        //falta
+        public string Nombre { get; set; }
     }
 }

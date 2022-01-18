@@ -8,5 +8,16 @@ namespace Modelo1.Entidades
 {
     public class Curso
     {
+        public int CursoId { get; set; }
+        public DateTime FechaFin { get; set; }
+        public DateTime FechaInicio { get; set; }
+        public string Jornada { get; set; }
+        public Materia Materia { get; set; }
+        public int MateriaId { get; set; }
+        //falta
+        public string Nombre { get; set; }
+        public Periodo Periodo { get; set; }
+        public int PeriodoId { get; set; }
+
     }
 }

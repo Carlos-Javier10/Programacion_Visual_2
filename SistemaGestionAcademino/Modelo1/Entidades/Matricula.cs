@@ -8,5 +8,15 @@ namespace Modelo1.Entidades
 {
     public class Matricula
     {
+        public Carrera Carrrera { get; set; }
+        public int CarerraId { get; set; }
+        public string Estado { get; set; }
+        public Estudinate Estudinate { get; set; }
+        public int EstudianteId { get; set; }
+        public DateTime Fecha { get; set; }
+        //falta 
+        public int MatriculaId { get; set; }
+        public Periodo Periodo { get; set; }
+        public int PeriodoId { get; set; }
     }
 }

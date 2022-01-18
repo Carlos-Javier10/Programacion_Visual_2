@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\carlo\\source\\repos\\SistemaGestionAcademino\\ConsoleApp1\\ConsoleApp1.csproj": {}
+    "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\SistemaGestionAcademino\\ConsoleApp1\\ConsoleApp1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\carlo\\source\\repos\\SistemaGestionAcademino\\ConsoleApp1\\ConsoleApp1.csproj": {
+    "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\SistemaGestionAcademino\\ConsoleApp1\\ConsoleApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\carlo\\source\\repos\\SistemaGestionAcademino\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectUniqueName": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\SistemaGestionAcademino\\ConsoleApp1\\ConsoleApp1.csproj",
         "projectName": "ConsoleApp1",
-        "projectPath": "C:\\Users\\carlo\\source\\repos\\SistemaGestionAcademino\\ConsoleApp1\\ConsoleApp1.csproj",
+        "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\SistemaGestionAcademino\\ConsoleApp1\\ConsoleApp1.csproj",
         "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\carlo\\source\\repos\\SistemaGestionAcademino\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\SistemaGestionAcademino\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\carlo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -14,6 +14,10 @@ namespace Proyeto.Entidades
         public string Edad { get; set; }
         public int Telefono { get; set; }
         public string Celular { get; set; }
+        public DateTime Ingreso { get; set; }
+        public string Clave { get; set; }
+
+        public List<Distrito> Distritos { get; set; }
 
     }
 }

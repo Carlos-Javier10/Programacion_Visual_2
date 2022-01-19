@@ -13,3 +13,10 @@ C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\obj\Deb
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\obj\Debug\net5.0\ref\ProyectoDB.dll
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\obj\Debug\net5.0\ProyectoDB.pdb
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\obj\Debug\net5.0\ProyectoDB.genruntimeconfig.cache
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\bin\Debug\net5.0\Proyecto.deps.json
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\bin\Debug\net5.0\Proyecto.runtimeconfig.json
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\bin\Debug\net5.0\Proyecto.runtimeconfig.dev.json
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\bin\Debug\net5.0\Proyecto.exe
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\bin\Debug\net5.0\Proyecto.dll
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\bin\Debug\net5.0\Proyecto.pdb
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\obj\Debug\net5.0\ProyectoDB.csproj.CopyComplete

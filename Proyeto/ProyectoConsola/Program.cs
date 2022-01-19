@@ -1,12 +1,14 @@
 ﻿using System;
+using Proyecto.Entidades;
 
 namespace ProyectoConsola
 {
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //lista de Distritos
+            Distrito Tumbaco = new Distrito() { cod_Distrito = "001", nom_Distrito = "Tumbaco" };
         }
     }
 }

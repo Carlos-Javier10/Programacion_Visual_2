@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Proyeto.Entidades
+namespace Proyecto.Entidades
 {
     public class Boleta
     {

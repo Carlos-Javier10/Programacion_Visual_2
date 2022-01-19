@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "Proyecto/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Proyecto.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Proyecto.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Proyecto/1.0.0": {
+      "type": "project",
+      "path": "../Proyeto/Proyecto.csproj",
+      "msbuildProject": "../Proyeto/Proyecto.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "Proyecto >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\carlo\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\Proyeto\\Proyecto.csproj": {
+              "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\Proyeto\\Proyecto.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

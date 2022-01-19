@@ -4,8 +4,7 @@ using System.Text;
 
 namespace Proyeto.Entidades
 {
-    public class Usuario
+    class DetalleOrdenPedido
     {
-
     }
 }

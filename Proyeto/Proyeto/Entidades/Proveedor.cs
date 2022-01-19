@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Proyeto.Entidades
 {
-    class Proveedor
+    public class Proveedor
     {
     }
 }

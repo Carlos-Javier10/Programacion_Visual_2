@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Proyecto.Entidades
 {
     public class Boleta
     {
+        [Key]
         public string num_boleta { get; set; }
         public DateTime Fecha { get; set; }
         public string cod_Emple { get; set; }

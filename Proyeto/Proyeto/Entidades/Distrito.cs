@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Proyecto.Entidades
 {
     public class Distrito
     {
-        public int cod_Dis { get; set; }
+    [Key]
         public string cod_Distrito { get; set; }
         public string nom_Distrito { get; set; }
     }

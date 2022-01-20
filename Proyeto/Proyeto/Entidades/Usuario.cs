@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Proyecto.Entidades
 {
     public class Usuario
     {
+        [Key]
         public string cod_Usuario { get; set; }
         public string cod_Emple { get; set; }
         public string nivel_Us { get; set; }

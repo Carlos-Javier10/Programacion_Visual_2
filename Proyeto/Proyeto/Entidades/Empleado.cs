@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Proyecto.Entidades
 {
     public class Empleado
     {
+        [Key]
         public string cod_Empleado { get; set; }
         public string nom_Empleado { get; set; }
         public string direc_Empleado { get; set; }

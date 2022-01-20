@@ -1,11 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace Proyecto.Entidades
 {
     public class Categoria
     {
+        [Key]
         public string cod_Categoria { get; set; }
         public string nom_Descripcion { get; set; }
     }

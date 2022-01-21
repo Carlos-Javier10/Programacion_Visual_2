@@ -18,6 +18,15 @@ namespace ProyectoDB
         public DbSet<Proveedor> Proveedores { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
 
+        //confirgurar el modelo 
+        protected override void OnModelCreating (ModelBuilder model)
+        {
+            //configuracion
+            //Distrito
+            model.Entity<Distrito>()
+                .HasOne()
+
+        }
 
         protected override void OnConfiguring(DbContextOptionsBuilder opciones)
         {

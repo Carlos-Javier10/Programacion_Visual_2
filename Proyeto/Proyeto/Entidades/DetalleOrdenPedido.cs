@@ -9,7 +9,7 @@ namespace Proyecto.Entidades
     {
         [Key]
         public string num_OrdenPedido { get; set; }
-        public string cod_Prod { get; set; }
+        public string cod_Prodructo { get; set; }
         public string nom_Prod { get; set; }
         public int Catidad { get; set; }
         public decimal precio_venta { get; set; }

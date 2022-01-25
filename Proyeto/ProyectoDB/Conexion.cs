@@ -43,9 +43,15 @@ namespace ProyectoDB
                 .WithMany(Empleado =>Empleado.Distritos )
                 .HasForeignKey(Distrito => Distrito.cod_Empleado);
             //productos y detalleorden
-
-            //productos y
-            //productos y
+            model.Entity<Producto>()
+                .HasOne(produtos => Producto.DetalleOrdenPedido)
+                .WithMany(DetalleOrdenPedido => DetalleOrdenPedido.Productos)
+                .HasForeignKey(Producto => Producto.num_OrdenPedido);
+            //categoria y producto
+            model.Entity<Categoria>()
+                .HasOne(categoria => categoria.Productos)
+                .WithMany(Producto => Producto.Categorias)
+                .HasForeignKey(Categoria => Categoria.cod_Producto);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder opciones)

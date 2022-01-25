@@ -22,13 +22,21 @@ namespace ProyectoDB
         protected override void OnModelCreating (ModelBuilder model)
         {
             //configuracion
-            //Distrito
+            //presentacion y producto
+            model.Entity<Presentacion>()
+                .HasOne(Presentacion => Presentacion.Productos)
+                .WithOne(Producto => Producto.Presentacion)
+                .HasForeignKey(Presentacion => Presentacion.cod_Presentacion);
+            //Distrito y proveedor
             model.Entity<Distrito>()
-                .HasOne(Distrito => Distrito.Proveedors)
-                .WithMany(Cliente => Cliente.Dis)
-                .HasForeig
-
-
+                .HasOne(distrito => distrito.Proveedors)
+                .WithMany(Proveedor => Proveedor.Distritos)
+                .HasForeignKey(Distrito => Distrito.cod_Proveedor);
+            //Distrito y cliente
+            model.Entity<Distrito>()
+                .HasOne(distrito => distrito.Clientes)
+                .WithMany(cliente => cliente.Distritos)
+                .HasForeignKey(Distrito => Distrito.cod_Proveedor);
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder opciones)

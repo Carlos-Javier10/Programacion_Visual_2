@@ -7,6 +7,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ProyectoDB\ProyectoDB.csproj" />
+    <ProjectReference Include="..\Proyeto\Proyecto.csproj" />
   </ItemGroup>
 
 </Project>

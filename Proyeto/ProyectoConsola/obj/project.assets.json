@@ -5856,6 +5856,7 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
+      "Proyecto >= 1.0.0",
       "ProyectoDB >= 1.0.0"
     ]
   },
@@ -5888,6 +5889,9 @@
           "projectReferences": {
             "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\ProyectoDB\\ProyectoDB.csproj": {
               "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\ProyectoDB\\ProyectoDB.csproj"
+            },
+            "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\Proyeto\\Proyecto.csproj": {
+              "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\Proyeto\\Proyecto.csproj"
             }
           }
         }

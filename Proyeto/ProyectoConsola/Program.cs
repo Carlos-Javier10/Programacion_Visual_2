@@ -16,19 +16,19 @@ namespace ProyectoConsola
 
 
             //Creacion de Distritos
-            Distrito Quito = new Distrito() { cod_Distrito = "001", nom_Distrito="Quito" };
-            Distrito Montufar = new Distrito() { cod_Distrito = "002", nom_Distrito = "Montufar" };
-            Distrito Esmeraldas = new Distrito() { cod_Distrito = "003", nom_Distrito = "Esmeraldas" };
-            Distrito Quininde = new Distrito() { cod_Distrito = "004", nom_Distrito = "Quininde" };
-            Distrito Ibarra= new Distrito() { cod_Distrito = "005", nom_Distrito = "Ibarra" };
-            Distrito Pimampiro = new Distrito() { cod_Distrito = "006", nom_Distrito = "Pimampiro" };
-            Distrito Cotacachi = new Distrito() { cod_Distrito = "007", nom_Distrito = "Cotacachi" };
-            Distrito Cayambe = new Distrito() { cod_Distrito = "008", nom_Distrito = "Cayambe" };
-            Distrito Mejia = new Distrito() { cod_Distrito = "009", nom_Distrito = "Mejia" };
-            Distrito Sigchos = new Distrito() { cod_Distrito = "010", nom_Distrito = "Sigchos" };
-            Distrito Pangua = new Distrito() { cod_Distrito = "011", nom_Distrito = "Pangua" };
-            Distrito Pujili = new Distrito() { cod_Distrito = "012", nom_Distrito = "Pujili" };
-            Distrito Baños = new Distrito() { cod_Distrito = "013", nom_Distrito = "Baños" };
+            Distrito Quito = new Distrito() { cod_Distrito = 1, nom_Distrito="Quito" };
+            Distrito Montufar = new Distrito() { cod_Distrito = 2, nom_Distrito = "Montufar" };
+            Distrito Esmeraldas = new Distrito() { cod_Distrito = 3, nom_Distrito = "Esmeraldas" };
+            Distrito Quininde = new Distrito() { cod_Distrito = 4, nom_Distrito = "Quininde" };
+            Distrito Ibarra= new Distrito() { cod_Distrito = 5, nom_Distrito = "Ibarra" };
+            Distrito Pimampiro = new Distrito() { cod_Distrito = 6, nom_Distrito = "Pimampiro" };
+            Distrito Cotacachi = new Distrito() { cod_Distrito = 7, nom_Distrito = "Cotacachi" };
+            Distrito Cayambe = new Distrito() { cod_Distrito = 8, nom_Distrito = "Cayambe" };
+            Distrito Mejia = new Distrito() { cod_Distrito = 9, nom_Distrito = "Mejia" };
+            Distrito Sigchos = new Distrito() { cod_Distrito = 10, nom_Distrito = "Sigchos" };
+            Distrito Pangua = new Distrito() { cod_Distrito = 11, nom_Distrito = "Pangua" };
+            Distrito Pujili = new Distrito() { cod_Distrito = 12, nom_Distrito = "Pujili" };
+            Distrito Baños = new Distrito() { cod_Distrito = 13, nom_Distrito = "Baños" };
 
             //creacion de lista de distritos
             List<Distrito> listaDistrito = new List<Distrito> { Quito, Montufar, Esmeraldas, Quininde, Ibarra, Pimampiro, Cotacachi, Cayambe, Mejia, Sigchos, Pangua, Pujili, Baños };

@@ -21,6 +21,6 @@ namespace Proyecto.Entidades
         public List<Categoria> Categorias { get; set; }
         public List<Proveedor> Proveedores { get; set; }
         public List<Presentacion> Presentaciones { get; set; }
-        public List<OrdenPedido> OrdenPedidos { get; set; }
+        public List<DetalleOrdenPedido> DetalleOrdenPedidos { get; set; }
     }
 }

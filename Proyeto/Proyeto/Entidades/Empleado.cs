@@ -20,6 +20,8 @@ namespace Proyecto.Entidades
         public string Clave { get; set; }
 
         public List<Distrito> Distritos { get; set; }
+        public List< Usuario> Usuarios { get; set; }
+        public List<OrdenPedido> OrdenPedidos { get; set; }
 
     }
 }

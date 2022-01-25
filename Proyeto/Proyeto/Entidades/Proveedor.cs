@@ -16,5 +16,6 @@ namespace Proyecto.Entidades
         public string cod_distrito { get; set; }
 
         public List<Distrito> Distritos { get; set; }
+        public List<Producto> Productos { get; set; }
     }
 }

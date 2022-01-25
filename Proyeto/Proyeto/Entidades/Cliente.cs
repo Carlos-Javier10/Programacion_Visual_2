@@ -19,5 +19,6 @@ namespace Proyecto.Entidades
         public string Celular { get; set; }
 
         public List<Distrito> Distritos { get; set; }
+        public List<OrdenPedido> OrdenPedidos { get; set; }
     }
 }

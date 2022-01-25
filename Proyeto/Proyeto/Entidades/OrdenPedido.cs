@@ -18,6 +18,7 @@ namespace Proyecto.Entidades
 
         public List<Cliente> Clientes { get; set; }
         public List<Empleado> Empleados { get; set; }
+        public List<Boleta> Boletas { get; set; }
 
     }
 }

@@ -10,5 +10,7 @@ namespace Proyecto.Entidades
         [Key]
         public string cod_Presentacion { get; set; }
         public string nom_Presentacion { get; set; }
+
+        public List<Producto> Productos { get; set; }
     }
 }

@@ -29,14 +29,23 @@ namespace ProyectoDB
                 .HasForeignKey(Presentacion => Presentacion.cod_Presentacion);
             //Distrito y proveedor
             model.Entity<Distrito>()
-                .HasOne(distrito => distrito.Proveedors)
+                .HasOne(distrito => distrito.Proveedores)
                 .WithMany(Proveedor => Proveedor.Distritos)
                 .HasForeignKey(Distrito => Distrito.cod_Proveedor);
             //Distrito y cliente
             model.Entity<Distrito>()
                 .HasOne(distrito => distrito.Clientes)
                 .WithMany(cliente => cliente.Distritos)
-                .HasForeignKey(Distrito => Distrito.cod_Proveedor);
+                .HasForeignKey(Distrito => Distrito.cod_Cliente);
+            //Distrito y producto
+            model.Entity<Distrito>()
+                .HasOne(distrito => distrito.Empleados)
+                .WithMany(Empleado =>Empleado.Distritos )
+                .HasForeignKey(Distrito => Distrito.cod_Empleado);
+            //productos y detalleorden
+
+            //productos y
+            //productos y
         }
 
         protected override void OnConfiguring(DbContextOptionsBuilder opciones)

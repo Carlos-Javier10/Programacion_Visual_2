@@ -24,7 +24,9 @@ namespace ProyectoDB
             //configuracion
             //Distrito
             model.Entity<Distrito>()
-                .HasOne()
+                .HasOne(Distrito => Distrito.Proveedors)
+                .WithMany(Proveedor => Proveedor.Distritos)
+
 
         }
 

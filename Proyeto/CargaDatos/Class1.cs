@@ -5,9 +5,7 @@ using System.Collections.Generic;
 namespace CargaDatos
 {
     public class Class1
-    {
-        private const double V = 12.5;
-
+    {       
         public enum ListaTipo
         {
             Boletas, Categorias, Clientes, DetalleOrdenPedidos, Distritos,
@@ -28,6 +26,23 @@ namespace CargaDatos
             {
                 nom_Descripcion = "tratamiento de artrosis"
             };
+            Categoria digoxina = new Categoria()
+            {
+                nom_Descripcion = "antiarrítmico"
+            };
+            Categoria dimercaprol = new Categoria()
+            {
+                nom_Descripcion = "medicamento quelante",
+            };
+            Categoria diclofenaco = new Categoria()
+            {
+                nom_Descripcion = "tratamiento de artrosis"
+            };
+            Categoria digoxina = new Categoria()
+            {
+                nom_Descripcion = "antiarrítmico"
+            };
+
             List<Categoria> listacategorias = new List<Categoria>() { aspirina};
             #endregion
             //lista de clientes
@@ -62,6 +77,7 @@ namespace CargaDatos
             Presentacion Bayer = new Presentacion() { nom_Presentacion = "Bayer" };
             Presentacion Laboratorio_Chile = new Presentacion() { nom_Presentacion = "Laboratorio Chile" };
             Presentacion MK = new Presentacion() { nom_Presentacion = "MK" };
+            Presentacion BAL = new Presentacion() { nom_Presentacion = "B.A.L" };
 
 
             List<Presentacion> listapresentacion = new List<Presentacion>() { Bayer,Laboratorio_Chile };
@@ -140,59 +156,59 @@ namespace CargaDatos
                 precio_Venta = new decimal(2.5),
                 fecha_Venc = new DateTime(2024 - 12 - 12),
                 Stock = 55,
-                Presentacion = Bayer,
-                Categoria = aspirina,
-                Proveedor = TecnandinaSA
+                Presentacion = Laboratorio_Chile,
+                Categoria = digoxina,
+                Proveedor = Abbott
             };
-            Producto Aspirina = new Producto()
+            Producto Dimercaprol = new Producto()
             {
-                nom_Producto = "Aspirina",
-                precio_Venta = new decimal(12.5),
-                fecha_Venc = new DateTime(2023 - 12 - 12),
+                nom_Producto = "Dimercaprol",
+                precio_Venta = new decimal(2.5),
+                fecha_Venc = new DateTime(2023 - 07 - 12),
                 Stock = 65,
-                Presentacion = Bayer,
-                Categoria = aspirina,
-                Proveedor = TecnandinaSA
+                Presentacion = BAL,
+                Categoria = dimercaprol,
+                Proveedor = ANHEXA
             };
             Producto Aspirina = new Producto()
             {
                 nom_Producto = "Aspirina",
-                precio_Venta = new decimal(12.5),
-                fecha_Venc = new DateTime(2023 - 12 - 12),
+                precio_Venta = new decimal(1.65),
+                fecha_Venc = new DateTime(2023 - 07 - 12),
                 Stock = 85,
                 Presentacion = Bayer,
                 Categoria = aspirina,
-                Proveedor = TecnandinaSA
+                Proveedor = Baxter
             };
             Producto Aspirina = new Producto()
             {
                 nom_Producto = "Aspirina",
-                precio_Venta = new decimal(12.5),
-                fecha_Venc = new DateTime(2023 - 12 - 12),
+                precio_Venta = new decimal(4.5),
+                fecha_Venc = new DateTime(2023 - 09 - 12),
                 Stock = 15,
                 Presentacion = Bayer,
                 Categoria = aspirina,
-                Proveedor = TecnandinaSA
+                Proveedor = Baxter
             };
             Producto Aspirina = new Producto()
             {
                 nom_Producto = "Aspirina",
-                precio_Venta = new decimal(12.5),
-                fecha_Venc = new DateTime(2023 - 12 - 12),
+                precio_Venta = new decimal(1.8),
+                fecha_Venc = new DateTime(2023 - 04 - 12),
                 Stock = 96,
                 Presentacion = Bayer,
                 Categoria = aspirina,
-                Proveedor = TecnandinaSA
+                Proveedor = ANHEXA
             };
             Producto Aspirina = new Producto()
             {
                 nom_Producto = "Aspirina",
-                precio_Venta = new decimal(12.5),
-                fecha_Venc = new DateTime(2023 - 12 - 12),
+                precio_Venta = new decimal(3.55),
+                fecha_Venc = new DateTime(2023 - 02 - 12),
                 Stock = 44,
                 Presentacion = Bayer,
                 Categoria = aspirina,
-                Proveedor = TecnandinaSA
+                Proveedor = Abbott
             };
 
 

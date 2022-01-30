@@ -13,7 +13,7 @@ namespace Proyecto.Entidades
         public string direc_Cliente { get; set; } 
         public string sexo { get; set; }
         public int DNI { get; set; }
-        public int RUC { get; set; }
+        public long RUC { get; set; }
         public int Telefono { get; set; }
         public string Celular { get; set; }
 

@@ -5,11 +5,11 @@ using System.Collections.Generic;
 namespace CargaDatos
 {
     public class Class1
-    {       
+    {
         public enum ListaTipo
         {
             Boletas, Categorias, Clientes, DetalleOrdenPedidos, Distritos,
-            Empleados,OrdenPedidos,Presentaciones, Productos,Proveedores, Usuarios
+            Empleados, OrdenPedidos, Presentaciones, Productos, Proveedores, Usuarios
         };
 
         public Dictionary<ListaTipo, object> CargaDatos()
@@ -34,39 +34,85 @@ namespace CargaDatos
             {
                 nom_Descripcion = "medicamento quelante",
             };
-            Categoria diclofenaco = new Categoria()
+            Categoria ibuprofeno = new Categoria()
             {
-                nom_Descripcion = "tratamiento de artrosis"
+                nom_Descripcion = "medicamento antiinflamatorio"
             };
-            Categoria digoxina = new Categoria()
+            Categoria levofloxacina = new Categoria()
             {
-                nom_Descripcion = "antiarrítmico"
+                nom_Descripcion = "medicamento antibiotico"
+            };
+            Categoria paracetamol = new Categoria()
+            {
+                nom_Descripcion = "medicamento analgesico para la fiebre y dolor leve"
+            };
+            Categoria metotrexato = new Categoria()
+            {
+                nom_Descripcion = "medicamento analogo bloque la sisntesis de purinas"
             };
 
             List<Categoria> listacategorias = new List<Categoria>() { aspirina};
             #endregion
-            //lista de clientes
-
-            //lista de DetalleOrdenPedido
-
             //lista de Distritos
             #region
-            Distrito Quito = new Distrito() {nom_Distrito = "Quito" };
-            Distrito Montufar = new Distrito() {nom_Distrito = "Montufar" };
-            Distrito Esmeraldas = new Distrito() {nom_Distrito = "Esmeraldas" };
-            Distrito Quininde = new Distrito() {nom_Distrito = "Quininde" };
-            Distrito Ibarra = new Distrito() {nom_Distrito = "Ibarra" };
-            Distrito Pimampiro = new Distrito() {nom_Distrito = "Pimampiro" };
-            Distrito Cotacachi = new Distrito() {nom_Distrito = "Cotacachi" };
-            Distrito Cayambe = new Distrito() {nom_Distrito = "Cayambe" };
-            Distrito Mejia = new Distrito() {nom_Distrito = "Mejia" };
-            Distrito Sigchos = new Distrito() {nom_Distrito = "Sigchos" };
-            Distrito Pangua = new Distrito() {nom_Distrito = "Pangua" };
-            Distrito Pujili = new Distrito() {nom_Distrito = "Pujili" };
-            Distrito Baños = new Distrito() {nom_Distrito = "Baños" };
+            Distrito Quito = new Distrito() { nom_Distrito = "Quito" };
+            Distrito Montufar = new Distrito() { nom_Distrito = "Montufar" };
+            Distrito Esmeraldas = new Distrito() { nom_Distrito = "Esmeraldas" };
+            Distrito Quininde = new Distrito() { nom_Distrito = "Quininde" };
+            Distrito Ibarra = new Distrito() { nom_Distrito = "Ibarra" };
+            Distrito Pimampiro = new Distrito() { nom_Distrito = "Pimampiro" };
+            Distrito Cotacachi = new Distrito() { nom_Distrito = "Cotacachi" };
+            Distrito Cayambe = new Distrito() { nom_Distrito = "Cayambe" };
+            Distrito Mejia = new Distrito() { nom_Distrito = "Mejia" };
+            Distrito Sigchos = new Distrito() { nom_Distrito = "Sigchos" };
+            Distrito Pangua = new Distrito() { nom_Distrito = "Pangua" };
+            Distrito Pujili = new Distrito() { nom_Distrito = "Pujili" };
+            Distrito Baños = new Distrito() { nom_Distrito = "Baños" };
 
             List<Distrito> listadistrito = new List<Distrito>() { Quito, Montufar, Esmeraldas, Quininde, Ibarra, Pimampiro, Cotacachi, Cayambe, Mejia, Sigchos, Pangua, Pujili, Baños };
             #endregion
+            //lista de clientes
+            #region
+            Cliente Javier = new Cliente()
+            {
+                nom_Clinete = "Javier",
+                direc_Cliente = "Checa",
+                Distrito = Quito,
+                sexo = "m",
+                DNI = 1745784785,
+                RUC = 101745784785,
+                Telefono = 2478554,
+                Celular = "0985477845"
+            };
+            Cliente Juan = new Cliente()
+            {
+                nom_Clinete = "Juan",
+                direc_Cliente = "El Quinche",
+                Distrito = Mejia,
+                sexo = "m",
+                DNI = 1778547855,
+                RUC = 101778547855,
+                Telefono = 2241542,
+                Celular = "0995745996"
+            };
+            Cliente Maria = new Cliente()
+            {
+                nom_Clinete = "Maria",
+                direc_Cliente = "Pifo",
+                Distrito = Quito,
+                sexo = "f",
+                DNI = 1711784451,
+                RUC = 101711784451,
+                Telefono = 2235325,
+                Celular = "0987478512"
+            };
+
+            List<Cliente> listacliente = new List<Cliente>() { Javier, Juan, Maria };
+            #endregion
+
+            //lista de DetalleOrdenPedido
+
+
 
             //lista de Empleados
 
@@ -148,7 +194,7 @@ namespace CargaDatos
                 Stock = 40,
                 Presentacion = Laboratorio_Chile,
                 Categoria = aspirina,
-                Proveedor = TecnandinaSA
+                Proveedor = Calox
             };
             Producto Digoxina = new Producto()
             {
@@ -170,49 +216,48 @@ namespace CargaDatos
                 Categoria = dimercaprol,
                 Proveedor = ANHEXA
             };
-            Producto Aspirina = new Producto()
+            Producto Ibuprofeno = new Producto()
             {
-                nom_Producto = "Aspirina",
+                nom_Producto = "Ibuprofeno",
                 precio_Venta = new decimal(1.65),
                 fecha_Venc = new DateTime(2023 - 07 - 12),
                 Stock = 85,
-                Presentacion = Bayer,
-                Categoria = aspirina,
-                Proveedor = Baxter
+                Presentacion = BAL,
+                Categoria = ibuprofeno,
+                Proveedor = Calox
             };
-            Producto Aspirina = new Producto()
+            Producto Levofloxacina = new Producto()
             {
-                nom_Producto = "Aspirina",
+                nom_Producto = "Levofloxacina",
                 precio_Venta = new decimal(4.5),
                 fecha_Venc = new DateTime(2023 - 09 - 12),
                 Stock = 15,
-                Presentacion = Bayer,
-                Categoria = aspirina,
+                Presentacion = MK,
+                Categoria = levofloxacina,
                 Proveedor = Baxter
             };
-            Producto Aspirina = new Producto()
+            Producto Paracetamol = new Producto()
             {
-                nom_Producto = "Aspirina",
+                nom_Producto = "Paracetamol",
                 precio_Venta = new decimal(1.8),
                 fecha_Venc = new DateTime(2023 - 04 - 12),
                 Stock = 96,
-                Presentacion = Bayer,
-                Categoria = aspirina,
+                Presentacion = MK,
+                Categoria = paracetamol,
                 Proveedor = ANHEXA
             };
-            Producto Aspirina = new Producto()
+            Producto Metotrexato = new Producto()
             {
-                nom_Producto = "Aspirina",
+                nom_Producto = "Metotrexato",
                 precio_Venta = new decimal(3.55),
                 fecha_Venc = new DateTime(2023 - 02 - 12),
                 Stock = 44,
-                Presentacion = Bayer,
-                Categoria = aspirina,
+                Presentacion = Laboratorio_Chile,
+                Categoria = metotrexato,
                 Proveedor = Abbott
             };
-
-
             #endregion
+
             //lista de usuario
 
 
@@ -221,7 +266,7 @@ namespace CargaDatos
             {
                 {ListaTipo.Boletas, listaboletas },
                 {ListaTipo.Categorias, listacategorias },
-                {ListaTipo.Clientes, listaclie },
+                {ListaTipo.Clientes, listacliente },
                 {ListaTipo.DetalleOrdenPedidos, listadeta },
                 {ListaTipo.Distritos, listadistrito },
                 {ListaTipo.Empleados, listaem },

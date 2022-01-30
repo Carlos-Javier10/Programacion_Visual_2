@@ -1,19 +1,17 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v5.0",
+    "name": ".NETCoreApp,Version=v3.1",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v5.0": {
-      "ProyectoConsola/1.0.0": {
+    ".NETCoreApp,Version=v3.1": {
+      "Proyecto/1.0.0": {
         "dependencies": {
-          "CargaDatos": "1.0.0",
-          "Proyecto": "1.0.0",
-          "ProyectoDB": "1.0.0"
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13"
         },
         "runtime": {
-          "ProyectoConsola.dll": {}
+          "Proyecto.dll": {}
         }
       },
       "Microsoft.CSharp/4.5.0": {},
@@ -122,17 +120,6 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/5.0.13": {},
-      "Microsoft.EntityFrameworkCore.InMemory/5.0.13": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.13"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Microsoft.EntityFrameworkCore.InMemory.dll": {
-            "assemblyVersion": "5.0.13.0",
-            "fileVersion": "5.0.1321.56013"
-          }
-        }
-      },
       "Microsoft.EntityFrameworkCore.Relational/5.0.13": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.13",
@@ -199,7 +186,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0"
         },
         "runtime": {
-          "lib/net5.0/Microsoft.Extensions.DependencyInjection.dll": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll": {
             "assemblyVersion": "5.0.0.1",
             "fileVersion": "5.0.821.31504"
           }
@@ -218,7 +205,8 @@
           "Microsoft.Extensions.DependencyInjection": "5.0.2",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "5.0.0",
           "Microsoft.Extensions.Logging.Abstractions": "5.0.0",
-          "Microsoft.Extensions.Options": "5.0.0"
+          "Microsoft.Extensions.Options": "5.0.0",
+          "System.Diagnostics.DiagnosticSource": "5.0.1"
         },
         "runtime": {
           "lib/netstandard2.1/Microsoft.Extensions.Logging.dll": {
@@ -241,7 +229,7 @@
           "Microsoft.Extensions.Primitives": "5.0.0"
         },
         "runtime": {
-          "lib/net5.0/Microsoft.Extensions.Options.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.Options.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.20.51904"
           }
@@ -395,31 +383,6 @@
           }
         }
       },
-      "Npgsql/5.0.10": {
-        "dependencies": {
-          "System.Runtime.CompilerServices.Unsafe": "4.6.0"
-        },
-        "runtime": {
-          "lib/net5.0/Npgsql.dll": {
-            "assemblyVersion": "5.0.10.0",
-            "fileVersion": "5.0.10.0"
-          }
-        }
-      },
-      "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.10": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "5.0.13",
-          "Microsoft.EntityFrameworkCore.Abstractions": "5.0.13",
-          "Microsoft.EntityFrameworkCore.Relational": "5.0.13",
-          "Npgsql": "5.0.10"
-        },
-        "runtime": {
-          "lib/netstandard2.1/Npgsql.EntityFrameworkCore.PostgreSQL.dll": {
-            "assemblyVersion": "5.0.10.0",
-            "fileVersion": "5.0.10.0"
-          }
-        }
-      },
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -447,7 +410,14 @@
           "System.Threading.Tasks": "4.3.0"
         }
       },
-      "System.Collections.Immutable/5.0.0": {},
+      "System.Collections.Immutable/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
       "System.Collections.NonGeneric/4.3.0": {
         "dependencies": {
           "System.Diagnostics.Debug": "4.3.0",
@@ -474,7 +444,14 @@
           "System.Runtime": "4.3.0"
         }
       },
-      "System.ComponentModel.Annotations/5.0.0": {},
+      "System.ComponentModel.Annotations/5.0.0": {
+        "runtime": {
+          "lib/netstandard2.1/System.ComponentModel.Annotations.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
       "System.ComponentModel.Primitives/4.3.0": {
         "dependencies": {
           "System.ComponentModel": "4.3.0",
@@ -522,7 +499,7 @@
       },
       "System.Diagnostics.DiagnosticSource/5.0.1": {
         "runtime": {
-          "lib/net5.0/System.Diagnostics.DiagnosticSource.dll": {
+          "lib/netstandard1.3/System.Diagnostics.DiagnosticSource.dll": {
             "assemblyVersion": "5.0.0.0",
             "fileVersion": "5.0.220.61120"
           }
@@ -830,7 +807,6 @@
           }
         }
       },
-      "System.Runtime.CompilerServices.Unsafe/4.6.0": {},
       "System.Runtime.Extensions/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "3.1.0",
@@ -1077,38 +1053,11 @@
           "System.Xml.ReaderWriter": "4.3.0",
           "System.Xml.XmlDocument": "4.3.0"
         }
-      },
-      "CargaDatos/1.0.0": {
-        "dependencies": {
-          "Proyecto": "1.0.0"
-        },
-        "runtime": {
-          "CargaDatos.dll": {}
-        }
-      },
-      "Proyecto/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13"
-        },
-        "runtime": {
-          "Proyecto.dll": {}
-        }
-      },
-      "ProyectoDB/1.0.0": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore.InMemory": "5.0.13",
-          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.13",
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10",
-          "Proyecto": "1.0.0"
-        },
-        "runtime": {
-          "ProyectoDB.dll": {}
-        }
       }
     }
   },
   "libraries": {
-    "ProyectoConsola/1.0.0": {
+    "Proyecto/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
@@ -1154,13 +1103,6 @@
       "sha512": "sha512-torTg+dQC/vOlFI5FZsRmOAA5pKtr8cJNJ5SWsl0RVYmhb5I7s/V3T1NsIzSqJTYzGBssHl5mFbiBODeBdQpnQ==",
       "path": "microsoft.entityframeworkcore.analyzers/5.0.13",
       "hashPath": "microsoft.entityframeworkcore.analyzers.5.0.13.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.InMemory/5.0.13": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-yjF1UJiX6dDABiN15cyXs17r4OE9k6KH7iwODVejU1Ot+H49itWmvGOv/gm2UQn2qlZJcBI2A7KvqMZ9gz0A/A==",
-      "path": "microsoft.entityframeworkcore.inmemory/5.0.13",
-      "hashPath": "microsoft.entityframeworkcore.inmemory.5.0.13.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/5.0.13": {
       "type": "package",
@@ -1315,20 +1257,6 @@
       "sha512": "sha512-ebWzW9j2nwxQeBo59As2TYn7nYr9BHicqqCwHOD1Vdo+50HBtLPuqdiCYJcLdTRknpYis/DSEOQz5KmZxwrIAg==",
       "path": "newtonsoft.json/10.0.1",
       "hashPath": "newtonsoft.json.10.0.1.nupkg.sha512"
-    },
-    "Npgsql/5.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3TB9le3lfu5Hc+LSHqMCVLcA+qUPg1enyM4+u0pMUBmNNGwc0sVPrnfnys2TVZIdkF8Aww/AZlnJHDsnEGqD0g==",
-      "path": "npgsql/5.0.10",
-      "hashPath": "npgsql.5.0.10.nupkg.sha512"
-    },
-    "Npgsql.EntityFrameworkCore.PostgreSQL/5.0.10": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-3K+YNZFdwMcTxY8aW9m6BHyzPce/WFdDKPESP4uCXk6xNS6Ujq6zhi7+KXkzb7iNB0OYretEuF3ezqkk4ZnJMg==",
-      "path": "npgsql.entityframeworkcore.postgresql/5.0.10",
-      "hashPath": "npgsql.entityframeworkcore.postgresql.5.0.10.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",
@@ -1610,13 +1538,6 @@
       "path": "system.runtime.caching/4.7.0",
       "hashPath": "system.runtime.caching.4.7.0.nupkg.sha512"
     },
-    "System.Runtime.CompilerServices.Unsafe/4.6.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-HxozeSlipUK7dAroTYwIcGwKDeOVpQnJlpVaOkBz7CM4TsE5b/tKlQBZecTjh6FzcSbxndYaxxpsBMz+wMJeyw==",
-      "path": "system.runtime.compilerservices.unsafe/4.6.0",
-      "hashPath": "system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
-    },
     "System.Runtime.Extensions/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -1798,21 +1719,6 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
-    },
-    "CargaDatos/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "Proyecto/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "ProyectoDB/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     }
   }
 }

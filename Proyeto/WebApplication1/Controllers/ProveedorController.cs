@@ -10,6 +10,11 @@ namespace WebApplication1.Controllers
 {
     public class ProveedorController : Controller
     {
+        private readonly Conexion db;
+        public ProveedorController(Conexion db)
+        {
+            this.db = db;
+        }
         public IActionResult Index()
         {
             return View();

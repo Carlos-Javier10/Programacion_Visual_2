@@ -72,3 +72,5 @@ C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\ob
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\obj\Debug\net5.0\ref\ProyectoConsola.dll
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.pdb
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.genruntimeconfig.cache
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\bin\Debug\net5.0\CargaDatos.dll
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\bin\Debug\net5.0\CargaDatos.pdb

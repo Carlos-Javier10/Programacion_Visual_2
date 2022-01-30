@@ -51,7 +51,7 @@ namespace CargaDatos
                 nom_Descripcion = "medicamento analogo bloque la sisntesis de purinas"
             };
 
-            List<Categoria> listacategorias = new List<Categoria>() { aspirina};
+            List<Categoria> listacategorias = new List<Categoria>() { aspirina };
             #endregion
             //lista de Distritos
             #region
@@ -110,14 +110,50 @@ namespace CargaDatos
             List<Cliente> listacliente = new List<Cliente>() { Javier, Juan, Maria };
             #endregion
 
-            //lista de DetalleOrdenPedido
-
-
 
             //lista de Empleados
+            #region
+            Empleado Carlos = new Empleado()
+            {
+                nom_Empleado = "Carlos",
+                direc_Empleado = "Checa",
+                Distrito = Quito,
+                Cargo = "Admin",
+                Edad = "20",
+                Telefono = 2245417,
+                Celular = "0987457547",
+                Ingreso = new DateTime(2021 - 02 - 02),
+                Clave = "carlos123"
+            };
+            Empleado Marco = new Empleado()
+            {
+                nom_Empleado = "Marco",
+                direc_Empleado = "Tumbaco",
+                Distrito = Quito,
+                Cargo = "User",
+                Edad = "21",
+                Telefono = 2245414,
+                Celular = "0984745618",
+                Ingreso = new DateTime(2021 - 02 - 02),
+                Clave = "marco123"
+            };
 
+            List<Empleado> listaempleado = new List<Empleado>() { Carlos, Marco };
+            #endregion
             //lista de OrdenPedidos
+            #region
+            OrdenPedido p1 = new OrdenPedido()
+            {
+                Fecha = new DateTime(2022 - 02 - 10),
+                Cliente = Javier,
+                Empleado = Carlos,
+                cod_tipoPago = "efectivo",
+                total = new decimal(1.5)
 
+            };
+
+            List<OrdenPedido> listaordenpedido = new List<OrdenPedido>() { p1 };
+            #endregion
             //lista de Presentacion
             #region
             Presentacion Bayer = new Presentacion() { nom_Presentacion = "Bayer" };
@@ -126,7 +162,7 @@ namespace CargaDatos
             Presentacion BAL = new Presentacion() { nom_Presentacion = "B.A.L" };
 
 
-            List<Presentacion> listapresentacion = new List<Presentacion>() { Bayer,Laboratorio_Chile };
+            List<Presentacion> listapresentacion = new List<Presentacion>() { Bayer, Laboratorio_Chile };
             #endregion
             //lista de Proveedor
             #region
@@ -180,7 +216,7 @@ namespace CargaDatos
             {
                 nom_Producto = "Aspirina",
                 precio_Venta = new decimal(0.5),
-                fecha_Venc = new DateTime(2023-12-12),
+                fecha_Venc = new DateTime(2023 - 12 - 12),
                 Stock = 50,
                 Presentacion = Bayer,
                 Categoria = aspirina,
@@ -256,25 +292,107 @@ namespace CargaDatos
                 Categoria = metotrexato,
                 Proveedor = Abbott
             };
+
+            List<Producto> listaproducto = new List<Producto>() { Aspirina, Diclofenaco, Digoxina, Dimercaprol, Ibuprofeno, Levofloxacina,
+            Paracetamol, Metotrexato};
             #endregion
+            //lista de DetalleOrdenPedido
+            #region
+            DetalleOrdenPedido dpaspirina = new DetalleOrdenPedido()
+            {
+                Producto = Aspirina,
+                Catidad = 30,
+                precio_venta = new decimal(12.5),
+                importe = new decimal(0.12)
+            };
+            DetalleOrdenPedido dpdiclofenato = new DetalleOrdenPedido()
+            {
+                Producto = Diclofenaco,
+                Catidad = 40,
+                precio_venta = new decimal(15.5),
+                importe = new decimal(0.12)
+            };
+            DetalleOrdenPedido dpdigoxina = new DetalleOrdenPedido()
+            {
+                Producto = Digoxina,
+                Catidad = 45,
+                precio_venta = new decimal(22.5),
+                importe = new decimal(0.14)
+            };
+            DetalleOrdenPedido dpdimercaprol = new DetalleOrdenPedido()
+            {
+                Producto = Dimercaprol,
+                Catidad = 30,
+                precio_venta = new decimal(12.5),
+                importe = new decimal(0.12)
+            };
+            DetalleOrdenPedido dpibuprofeno = new DetalleOrdenPedido()
+            {
+                Producto = Ibuprofeno,
+                Catidad = 63,
+                precio_venta = new decimal(10.5),
+                importe = new decimal(0.14)
+            };
+            DetalleOrdenPedido dplevofloxacina = new DetalleOrdenPedido()
+            {
+                Producto = Levofloxacina,
+                Catidad = 25,
+                precio_venta = new decimal(8.5),
+                importe = new decimal(0.12)
+            };
+            DetalleOrdenPedido dpparacetamol = new DetalleOrdenPedido()
+            {
+                Producto = Paracetamol,
+                Catidad = 26,
+                precio_venta = new decimal(10.7),
+                importe = new decimal(0.12)
+            };
+            DetalleOrdenPedido dpmetotrexato = new DetalleOrdenPedido()
+            {
+                Producto = Metotrexato,
+                Catidad = 40,
+                precio_venta = new decimal(17.2),
+                importe = new decimal(0.14)
+            };
 
+            List<DetalleOrdenPedido> listadetalleOrdenPedidos = new List<DetalleOrdenPedido>() { dpaspirina, dpdiclofenato, dpdigoxina, dpdimercaprol,
+                dpibuprofeno, dplevofloxacina, dpparacetamol, dpmetotrexato};
+            #endregion
             //lista de usuario
+            #region
+            Usuario carlos = new Usuario()
+            {
+                Empleado = Carlos,
+                nivel_Us = 1,
+                nom_Usuario = "Carlos",
+                password = "1234",
+                activo = "si"
+            };
+            Usuario marco = new Usuario()
+            {
+                Empleado = Marco,
+                nivel_Us = 2,
+                nom_Usuario = "Marco",
+                password = "1234",
+                activo = "si"
+            };
 
-
+            List<Usuario> listausuario = new List<Usuario>() { carlos };
+            #endregion
 
             Dictionary<ListaTipo, object> dicListaDatos = new Dictionary<ListaTipo, object>()
             {
                 {ListaTipo.Boletas, listaboletas },
                 {ListaTipo.Categorias, listacategorias },
                 {ListaTipo.Clientes, listacliente },
-                {ListaTipo.DetalleOrdenPedidos, listadeta },
+                {ListaTipo.DetalleOrdenPedidos, listadetalleOrdenPedidos },
                 {ListaTipo.Distritos, listadistrito },
-                {ListaTipo.Empleados, listaem },
-                {ListaTipo.OrdenPedidos, listaorde },
+                {ListaTipo.Empleados, listaempleado },
+                {ListaTipo.OrdenPedidos, listaordenpedido },
                 {ListaTipo.Presentaciones, listapresentacion },
-                {ListaTipo.Productos, listadistrito },
+                {ListaTipo.Productos, listaproducto },
                 {ListaTipo.Proveedores, listaproveedor },
-                {ListaTipo.Usuarios, listau },
+                {ListaTipo.Usuarios, listausuario },
             };
             return dicListaDatos;
         }

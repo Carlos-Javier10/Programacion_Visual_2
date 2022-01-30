@@ -24,6 +24,10 @@ namespace CargaDatos
             {
                 nom_Descripcion = "medicamento para tratar el dolor",
             };
+            Categoria diclofenaco = new Categoria()
+            {
+                nom_Descripcion = "tratamiento de artrosis"
+            };
             List<Categoria> listacategorias = new List<Categoria>() { aspirina};
             #endregion
             //lista de clientes
@@ -56,9 +60,14 @@ namespace CargaDatos
             //lista de Presentacion
             #region
             Presentacion Bayer = new Presentacion() { nom_Presentacion = "Bayer" };
-            List<Presentacion> listapresentacion = new List<Presentacion>() { Bayer };
-             #endregion
+            Presentacion Laboratorio_Chile = new Presentacion() { nom_Presentacion = "Laboratorio Chile" };
+            Presentacion MK = new Presentacion() { nom_Presentacion = "MK" };
+
+
+            List<Presentacion> listapresentacion = new List<Presentacion>() { Bayer,Laboratorio_Chile };
+            #endregion
             //lista de Proveedor
+            #region
             Proveedor TecnandinaSA = new Proveedor()
             {
                 nom_Proveedor = " Tecnandina",
@@ -75,21 +84,119 @@ namespace CargaDatos
                 Celular = "0978412458",
                 Distrito = Montufar
             };
+            Proveedor Abbott = new Proveedor()
+            {
+                nom_Proveedor = "Abbott",
+                direc_Proveedor = "Apartado 09-01-1292 Calicuchima 601",
+                Telefono = 2145457,
+                Celular = "0999478525",
+                Distrito = Ibarra
+            };
+            Proveedor Baxter = new Proveedor()
+            {
+                nom_Proveedor = "Baxter",
+                direc_Proveedor = "Casilla 17-17-1837 Diguja 190 y Vozandes",
+                Telefono = 2278456,
+                Celular = "0987455478",
+                Distrito = Cayambe
+            };
+            Proveedor Calox = new Proveedor()
+            {
+                nom_Proveedor = "Calox",
+                direc_Proveedor = "Panamericana Norte No. 10265",
+                Telefono = 2354415,
+                Celular = "0989741458",
+                Distrito = Sigchos
+            };
 
             List<Proveedor> listaproveedor = new List<Proveedor>() { TecnandinaSA };
+            #endregion
+
             //lista de Producto 
+            #region
             Producto Aspirina = new Producto()
             {
                 nom_Producto = "Aspirina",
-                precio_Venta = new decimal(12.5),
+                precio_Venta = new decimal(0.5),
                 fecha_Venc = new DateTime(2023-12-12),
                 Stock = 50,
                 Presentacion = Bayer,
                 Categoria = aspirina,
                 Proveedor = TecnandinaSA
             };
-           
+            Producto Diclofenaco = new Producto()
+            {
+                nom_Producto = "Diclofenaco",
+                precio_Venta = new decimal(1.5),
+                fecha_Venc = new DateTime(2023 - 11 - 12),
+                Stock = 40,
+                Presentacion = Laboratorio_Chile,
+                Categoria = aspirina,
+                Proveedor = TecnandinaSA
+            };
+            Producto Digoxina = new Producto()
+            {
+                nom_Producto = "Digoxina",
+                precio_Venta = new decimal(2.5),
+                fecha_Venc = new DateTime(2024 - 12 - 12),
+                Stock = 55,
+                Presentacion = Bayer,
+                Categoria = aspirina,
+                Proveedor = TecnandinaSA
+            };
+            Producto Aspirina = new Producto()
+            {
+                nom_Producto = "Aspirina",
+                precio_Venta = new decimal(12.5),
+                fecha_Venc = new DateTime(2023 - 12 - 12),
+                Stock = 65,
+                Presentacion = Bayer,
+                Categoria = aspirina,
+                Proveedor = TecnandinaSA
+            };
+            Producto Aspirina = new Producto()
+            {
+                nom_Producto = "Aspirina",
+                precio_Venta = new decimal(12.5),
+                fecha_Venc = new DateTime(2023 - 12 - 12),
+                Stock = 85,
+                Presentacion = Bayer,
+                Categoria = aspirina,
+                Proveedor = TecnandinaSA
+            };
+            Producto Aspirina = new Producto()
+            {
+                nom_Producto = "Aspirina",
+                precio_Venta = new decimal(12.5),
+                fecha_Venc = new DateTime(2023 - 12 - 12),
+                Stock = 15,
+                Presentacion = Bayer,
+                Categoria = aspirina,
+                Proveedor = TecnandinaSA
+            };
+            Producto Aspirina = new Producto()
+            {
+                nom_Producto = "Aspirina",
+                precio_Venta = new decimal(12.5),
+                fecha_Venc = new DateTime(2023 - 12 - 12),
+                Stock = 96,
+                Presentacion = Bayer,
+                Categoria = aspirina,
+                Proveedor = TecnandinaSA
+            };
+            Producto Aspirina = new Producto()
+            {
+                nom_Producto = "Aspirina",
+                precio_Venta = new decimal(12.5),
+                fecha_Venc = new DateTime(2023 - 12 - 12),
+                Stock = 44,
+                Presentacion = Bayer,
+                Categoria = aspirina,
+                Proveedor = TecnandinaSA
+            };
 
+
+            #endregion
             //lista de usuario
 
 

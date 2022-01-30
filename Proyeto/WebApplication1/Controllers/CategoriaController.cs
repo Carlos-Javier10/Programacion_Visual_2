@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
     public class CategoriaController : Controller
     {
         private readonly Conexion db;
-        public BoletaController(Conexion db)
+        public CategoriaController(Conexion db)
         {
             this.db = db;
         }

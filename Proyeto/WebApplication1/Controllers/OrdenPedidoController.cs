@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
     public class OrdenPedidoController : Controller
     {
         private readonly Conexion db;
-        public BoletaController(Conexion db)
+        public OrdenPedidoController(Conexion db)
         {
             this.db = db;
         }

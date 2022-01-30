@@ -11,7 +11,7 @@ namespace WebApplication1.Controllers
     public class PresentacionController : Controller
     {
         private readonly Conexion db;
-        public BoletaController(Conexion db)
+        public PresentacionController(Conexion db)
         {
             this.db = db;
         }

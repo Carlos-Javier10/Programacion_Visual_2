@@ -14,8 +14,7 @@ namespace CargaDatos
 
         public Dictionary<ListaTipo, object> CargaDatos()
         {
-            //lista de boleta
-
+           
             //lista de categorias
             #region
             Categoria aspirina = new Categoria()
@@ -109,8 +108,6 @@ namespace CargaDatos
 
             List<Cliente> listacliente = new List<Cliente>() { Javier, Juan, Maria };
             #endregion
-
-
             //lista de Empleados
             #region
             Empleado Carlos = new Empleado()
@@ -209,7 +206,6 @@ namespace CargaDatos
 
             List<Proveedor> listaproveedor = new List<Proveedor>() { TecnandinaSA };
             #endregion
-
             //lista de Producto 
             #region
             Producto Aspirina = new Producto()
@@ -379,10 +375,22 @@ namespace CargaDatos
 
             List<Usuario> listausuario = new List<Usuario>() { carlos };
             #endregion
+            //lista de boleta
+            #region
+            Boleta b1 = new Boleta()
+            {
+                Fecha = new DateTime(2022 - 02 - 12),
+                OrdenPedido = p1,
+                sub_Total = new decimal(12.5),
+                Total = new decimal(13)
+            };
+
+            List<Boleta> listaboleta = new List<Boleta>() { b1 };
+            #endregion
 
             Dictionary<ListaTipo, object> dicListaDatos = new Dictionary<ListaTipo, object>()
             {
-                {ListaTipo.Boletas, listaboletas },
+                {ListaTipo.Boletas, listaboleta },
                 {ListaTipo.Categorias, listacategorias },
                 {ListaTipo.Clientes, listacliente },
                 {ListaTipo.DetalleOrdenPedidos, listadetalleOrdenPedidos },

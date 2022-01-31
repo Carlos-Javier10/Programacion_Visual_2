@@ -154,3 +154,6 @@ C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\WebApplication1\ob
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\WebApplication1\obj\Debug\net5.0\ref\WebApplication1.dll
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\WebApplication1\obj\Debug\net5.0\WebApplication1.pdb
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\WebApplication1\obj\Debug\net5.0\WebApplication1.genruntimeconfig.cache
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\WebApplication1\obj\Debug\net5.0\Razor\Views\Boleta\Index.cshtml.g.cs
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\WebApplication1\obj\Debug\net5.0\Razor\Views\Categoria\Index.cshtml.g.cs
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\WebApplication1\obj\Debug\net5.0\Razor\Views\Cliente\Index.cshtml.g.cs

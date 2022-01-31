@@ -8783,9 +8783,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\WebApplication1\\WebApplication1.csproj",
-      "projectName": "WebApplication1",
-      "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\WebApplication1\\WebApplication1.csproj",
+      "projectUniqueName": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\WebApplication1\\WebSGF.csproj",
+      "projectName": "WebSGF",
+      "projectPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\WebApplication1\\WebSGF.csproj",
       "packagesPath": "C:\\Users\\carlo\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\carlo\\Documents\\GitHub\\Programacion_Visual_2\\Proyeto\\WebApplication1\\obj\\",
       "projectStyle": "PackageReference",

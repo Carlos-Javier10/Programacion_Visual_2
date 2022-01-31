@@ -15,6 +15,6 @@ namespace Proyecto.Entidades
         public string activo { get; set; }
 
         public Empleado Empleado { get; set; }
-        public string cod_Empleado { get; set; }
+        public int cod_Empleado { get; set; }
     }
 }

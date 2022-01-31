@@ -10,7 +10,7 @@ using ProyectoDB;
 namespace ProyectoDB.Migrations
 {
     [DbContext(typeof(Conexion))]
-    [Migration("20220131214547_farm")]
+    [Migration("20220131230000_farm")]
     partial class farm
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -181,6 +181,9 @@ namespace ProyectoDB.Migrations
                         .HasColumnType("int")
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
+                    b.Property<int?>("Empleadocod_Empleado")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("Fecha")
                         .HasColumnType("datetime2");
 
@@ -198,9 +201,9 @@ namespace ProyectoDB.Migrations
 
                     b.HasKey("num_ordenPedido");
 
-                    b.HasIndex("cod_Cliente");
+                    b.HasIndex("Empleadocod_Empleado");
 
-                    b.HasIndex("cod_Empleado");
+                    b.HasIndex("cod_Cliente");
 
                     b.ToTable("OrdenPedidos");
                 });
@@ -359,15 +362,13 @@ namespace ProyectoDB.Migrations
 
             modelBuilder.Entity("Proyecto.Entidades.OrdenPedido", b =>
                 {
+                    b.HasOne("Proyecto.Entidades.Empleado", "Empleado")
+                        .WithMany("OrdenPedido")
+                        .HasForeignKey("Empleadocod_Empleado");
+
                     b.HasOne("Proyecto.Entidades.Cliente", "Cliente")
                         .WithMany("OrdenPedido")
                         .HasForeignKey("cod_Cliente")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Proyecto.Entidades.Empleado", "Empleado")
-                        .WithMany("OrdenPedido")
-                        .HasForeignKey("cod_Empleado")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 

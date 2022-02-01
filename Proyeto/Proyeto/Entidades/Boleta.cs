@@ -9,6 +9,7 @@ namespace Proyecto.Entidades
     {
         [Key]
         public int num_boleta { get; set; }
+        [DataType(DataType.Date)]
         public DateTime Fecha { get; set; }
         public decimal sub_Total { get; set; }
         public decimal Total { get; set; }

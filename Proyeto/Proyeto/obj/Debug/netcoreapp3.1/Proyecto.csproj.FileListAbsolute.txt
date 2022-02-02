@@ -62,3 +62,4 @@ C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\Proyeto\obj\Debug\
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\Proyeto\obj\Debug\netcoreapp3.1\Proyecto.dll
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\Proyeto\obj\Debug\netcoreapp3.1\Proyecto.pdb
 C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\Proyeto\obj\Debug\netcoreapp3.1\Proyecto.genruntimeconfig.cache
+C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\Proyeto\obj\Debug\netcoreapp3.1\Proyecto.csproj.AssemblyReference.cache

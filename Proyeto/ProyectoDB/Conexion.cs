@@ -9,11 +9,11 @@ using System.Threading.Tasks;
 {
     public class Conexion : DbContext
     {
-        public Conexion(DbContextOptions<Conexion> options)
-            : base(options)
-        {
+        //public Conexion(DbContextOptions<Conexion> options)
+        //    : base(options)
+        //{
 
-        }
+        //}
 
         public DbSet<Boleta> Boletas { get; set; }
         public DbSet<Categoria> Categorias { get; set; }
@@ -90,13 +90,13 @@ using System.Threading.Tasks;
 
 
         }
-        
-        //protected override void OnConfiguring(DbContextOptionsBuilder opciones)
-        //{
-        //    opciones.UseSqlServer("Server= CARLOS ; initial catalog = Farmacia_Pro; trusted_connection = true; ");
 
-        //    //opciones.UseNpgsql(" Host = localhost; Database = Insti; Username = postgres; Password = carlos00; ");
+        protected override void OnConfiguring(DbContextOptionsBuilder opciones)
+        {
+            opciones.UseSqlServer("Server= CARLOS ; initial catalog = Farmacia_Pro; trusted_connection = true; ");
 
-        //}
+            //opciones.UseNpgsql(" Host = localhost; Database = Insti; Username = postgres; Password = carlos00; ");
+
+        }
     }
 }

@@ -71,11 +71,12 @@ using System.Threading.Tasks;
                 .HasOne(ordenpedido => ordenpedido.Cliente)
                 .WithMany(cliente => cliente.OrdenPedido)
                 .HasForeignKey(ordenpedido => ordenpedido.cod_Cliente);
-            ////empleado y ordenpedido
-            //model.Entity<OrdenPedido>()
-            //    .HasOne(ordenpedido => ordenpedido.Empleado)
-            //    .WithMany(empleado => empleado.OrdenPedido)
-            //    .HasForeignKey(ordenpedido => ordenpedido.cod_Empleado);
+            //empleado y ordenpedido
+            model.Entity<OrdenPedido>()
+                .HasOne(ordenpedido => ordenpedido.Empleado)
+                .WithMany(empleado => empleado.OrdenPedido)
+                .OnDelete(DeleteBehavior.NoAction)
+                .HasForeignKey(ordenpedido => ordenpedido.cod_Empleado);
             //Ordenpedido y boleta
             model.Entity<Boleta>()
                 .HasOne(boleta => boleta.OrdenPedido)

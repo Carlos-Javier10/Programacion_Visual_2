@@ -130,7 +130,6 @@ namespace ProyectoDB.Migrations
                     cod_tipoPago = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     total = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
                     cod_Cliente = table.Column<int>(type: "int", nullable: false),
-                    Empleadocod_Empleado = table.Column<int>(type: "int", nullable: true),
                     cod_Empleado = table.Column<int>(type: "int", nullable: false)
                 },
                 constraints: table =>
@@ -143,11 +142,10 @@ namespace ProyectoDB.Migrations
                         principalColumn: "cod_Cliente",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_OrdenPedidos_Empleados_Empleadocod_Empleado",
-                        column: x => x.Empleadocod_Empleado,
+                        name: "FK_OrdenPedidos_Empleados_cod_Empleado",
+                        column: x => x.cod_Empleado,
                         principalTable: "Empleados",
-                        principalColumn: "cod_Empleado",
-                        onDelete: ReferentialAction.Restrict);
+                        principalColumn: "cod_Empleado");
                 });
 
             migrationBuilder.CreateTable(
@@ -269,9 +267,9 @@ namespace ProyectoDB.Migrations
                 column: "cod_Cliente");
 
             migrationBuilder.CreateIndex(
-                name: "IX_OrdenPedidos_Empleadocod_Empleado",
+                name: "IX_OrdenPedidos_cod_Empleado",
                 table: "OrdenPedidos",
-                column: "Empleadocod_Empleado");
+                column: "cod_Empleado");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Productos_cod_Categoria",

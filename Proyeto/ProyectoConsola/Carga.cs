@@ -33,7 +33,6 @@ namespace ProyectoConsola
             db.Categorias.AddRange(listaCategotias);
             db.Distritos.AddRange(listaDistrito);
             db.Clientes.AddRange(listaCliente);
-            
             db.OrdenPedidos.AddRange(listaOrdenPedido);
             db.Presentaciones.AddRange(listaPresentacion);
             db.Proveedores.AddRange(listaProveedor);

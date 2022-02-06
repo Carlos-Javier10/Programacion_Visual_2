@@ -225,7 +225,7 @@ namespace CargaDatos
                 fecha_Venc = new DateTime(2023 - 11 - 12),
                 Stock = 40,
                 Presentacion = Laboratorio_Chile,
-                Categoria = aspirina,
+                Categoria = diclofenaco,
                 Proveedor = Calox
             };
             Producto Digoxina = new Producto()

@@ -9,11 +9,15 @@ using System.Threading.Tasks;
 {
     public class Conexion : DbContext
     {
-        //public Conexion(DbContextOptions<Conexion> options)
-        //    : base(options)
-        //{
+        public Conexion() { }
 
-        //}
+        public Conexion(DbContextOptions<Conexion> options)
+            : base(options)
+        {
+
+        }
+
+
 
         public DbSet<Boleta> Boletas { get; set; }
         public DbSet<Categoria> Categorias { get; set; }

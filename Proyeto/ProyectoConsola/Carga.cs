@@ -1,4 +1,5 @@
 ﻿using CargaDatos;
+using Microsoft.EntityFrameworkCore;
 using Proyecto.Entidades;
 using ProyectoDB;
 using System.Collections.Generic;
@@ -29,21 +30,23 @@ namespace ProyectoConsola
             var listaUsuario = (List<Usuario>)lista[ListaTipo.Usuarios];
             var listaBoleta = (List<Boleta>)lista[ListaTipo.Boletas];
 
-            Conexion db = new Conexion();
-            db.Categorias.AddRange(listaCategotias);
-            db.Distritos.AddRange(listaDistrito);
-            db.Clientes.AddRange(listaCliente);
-            db.OrdenPedidos.AddRange(listaOrdenPedido);
-            db.Presentaciones.AddRange(listaPresentacion);
-            db.Proveedores.AddRange(listaProveedor);
-            db.Productos.AddRange(listaProducto);
-            db.DetalleOrdenPedidos.AddRange(listaDetalleOrdenPedido);
-            db.Usuarios.AddRange(listaUsuario);
-            db.Boletas.AddRange(listaBoleta);
-            db.Empleados.AddRange(listaEmpleado);
+            //cargar los datos
+            using (Conexion db = ConexionBuilder.Crear())
+            {
+                db.Categorias.AddRange(listaCategotias);
+                db.Distritos.AddRange(listaDistrito);
+                db.Clientes.AddRange(listaCliente);
+                db.OrdenPedidos.AddRange(listaOrdenPedido);
+                db.Presentaciones.AddRange(listaPresentacion);
+                db.Proveedores.AddRange(listaProveedor);
+                db.Productos.AddRange(listaProducto);
+                db.DetalleOrdenPedidos.AddRange(listaDetalleOrdenPedido);
+                db.Usuarios.AddRange(listaUsuario);
+                db.Boletas.AddRange(listaBoleta);
+                db.Empleados.AddRange(listaEmpleado);
 
-            db.SaveChanges();
-
+                db.SaveChanges();
+            }
         }
     }
 }

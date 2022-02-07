@@ -1,0 +1,45 @@
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\bin\Debug\net5.0\CargaDatos.deps.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\bin\Debug\net5.0\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\bin\Debug\net5.0\ref\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\bin\Debug\net5.0\CargaDatos.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\bin\Debug\net5.0\Modelo.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\bin\Debug\net5.0\Modelo.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\obj\Debug\net5.0\CargaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\obj\Debug\net5.0\CargaDatos.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\obj\Debug\net5.0\CargaDatos.AssemblyInfo.cs
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.CopyComplete
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\obj\Debug\net5.0\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\obj\Debug\net5.0\ref\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\CargaDatos\obj\Debug\net5.0\CargaDatos.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\bin\Debug\net5.0\CargaDatos.deps.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\bin\Debug\net5.0\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\bin\Debug\net5.0\ref\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\bin\Debug\net5.0\CargaDatos.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\bin\Debug\net5.0\Modelo.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\bin\Debug\net5.0\Modelo.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.AssemblyInfo.cs
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.CopyComplete
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\obj\Debug\net5.0\ref\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\bin\Debug\net5.0\CargaDatos.deps.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\bin\Debug\net5.0\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\bin\Debug\net5.0\ref\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\bin\Debug\net5.0\CargaDatos.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\bin\Debug\net5.0\Modelo.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\bin\Debug\net5.0\Modelo.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.AssemblyInfo.cs
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.CopyComplete
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\obj\Debug\net5.0\ref\CargaDatos.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\CargaDatos\obj\Debug\net5.0\CargaDatos.pdb

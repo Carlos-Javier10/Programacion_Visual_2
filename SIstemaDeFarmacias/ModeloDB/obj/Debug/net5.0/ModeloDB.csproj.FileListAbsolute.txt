@@ -1,0 +1,54 @@
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\bin\Debug\net5.0\ModeloDB.deps.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\bin\Debug\net5.0\ModeloDB.runtimeconfig.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\bin\Debug\net5.0\ModeloDB.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\bin\Debug\net5.0\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\bin\Debug\net5.0\ref\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\bin\Debug\net5.0\ModeloDB.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ModeloDB.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ModeloDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ModeloDB.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ModeloDB.AssemblyInfo.cs
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ModeloDB.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ref\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ModeloDB.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ModeloDB.genruntimeconfig.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\bin\Debug\net5.0\Modelo.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\bin\Debug\net5.0\Modelo.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias\ModeloDB\obj\Debug\net5.0\ModeloDB.csproj.CopyComplete
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.deps.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.runtimeconfig.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\bin\Debug\net5.0\ref\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\bin\Debug\net5.0\Modelo.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\bin\Debug\net5.0\Modelo.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.AssemblyInfo.cs
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.csproj.CopyComplete
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ref\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.genruntimeconfig.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.deps.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.runtimeconfig.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\bin\Debug\net5.0\ref\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\bin\Debug\net5.0\ModeloDB.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\bin\Debug\net5.0\Modelo.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\bin\Debug\net5.0\Modelo.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.AssemblyInfo.cs
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.csproj.CopyComplete
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ref\ModeloDB.dll
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.pdb
+C:\Users\carlo\source\repos\SIstemaDeFarmacias - copia - copia\ModeloDB\obj\Debug\net5.0\ModeloDB.genruntimeconfig.cache

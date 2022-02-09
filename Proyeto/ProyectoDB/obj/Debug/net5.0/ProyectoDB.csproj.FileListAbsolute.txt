@@ -1,4 +1,0 @@
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\obj\Debug\net5.0\ProyectoDB.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\obj\Debug\net5.0\ProyectoDB.AssemblyInfoInputs.cache
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\obj\Debug\net5.0\ProyectoDB.AssemblyInfo.cs
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoDB\obj\Debug\net5.0\ProyectoDB.csproj.CoreCompileInputs.cache

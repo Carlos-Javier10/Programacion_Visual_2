@@ -1,4 +1,0 @@
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\Proyeto\obj\Debug\netcoreapp3.1\Proyecto.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\Proyeto\obj\Debug\netcoreapp3.1\Proyecto.AssemblyInfoInputs.cache
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\Proyeto\obj\Debug\netcoreapp3.1\Proyecto.AssemblyInfo.cs
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\Proyeto\obj\Debug\netcoreapp3.1\Proyecto.csproj.CoreCompileInputs.cache

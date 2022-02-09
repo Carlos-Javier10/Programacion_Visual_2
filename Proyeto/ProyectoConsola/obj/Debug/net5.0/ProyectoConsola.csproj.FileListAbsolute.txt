@@ -1,4 +1,0 @@
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfoInputs.cache
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.AssemblyInfo.cs
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\ProyectoConsola\obj\Debug\net5.0\ProyectoConsola.csproj.CoreCompileInputs.cache

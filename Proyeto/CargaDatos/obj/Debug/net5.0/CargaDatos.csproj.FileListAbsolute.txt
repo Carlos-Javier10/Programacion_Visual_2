@@ -1,4 +1,0 @@
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\CargaDatos\obj\Debug\net5.0\CargaDatos.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\CargaDatos\obj\Debug\net5.0\CargaDatos.AssemblyInfoInputs.cache
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\CargaDatos\obj\Debug\net5.0\CargaDatos.AssemblyInfo.cs
-C:\Users\carlo\Documents\GitHub\Programacion_Visual_2\Proyeto\CargaDatos\obj\Debug\net5.0\CargaDatos.csproj.CoreCompileInputs.cache
